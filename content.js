@@ -22,6 +22,7 @@ function addBookmarkButton() {
 
 const addNewBookmarkEventHandler = async () => {
 	currentProblemBookmarks = await fetchBookmarks();
+	
 	problemName =
 		document.getElementsByClassName("col-8 my-auto")[0].lastChild
 			.textContent;
@@ -29,6 +30,7 @@ const addNewBookmarkEventHandler = async () => {
 		url: newBookmark,
 		desc: problemName,
 	};
+	
 	let addNewToBookmark = true;
 	for (let i = 0; i < currentProblemBookmarks.length; i++) {
 		if (currentProblemBookmarks[i].url == newBookmark) {
@@ -43,6 +45,8 @@ const addNewBookmarkEventHandler = async () => {
 			]),
 		});
 	}
+
+	
 };
 
 
@@ -54,3 +58,7 @@ const fetchBookmarks = () => {
 		});
 	});
 };
+
+
+new Promise((resolve) => {
+	chrome.storage.sync.get([problemListKey], (obj) => {resolve(obj[problemListKey] ? JSON.parse(obj[problemListKey]) : []); }); });

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "AZ Todo Problems",
   "version": "0.1",
-  "author": "Vivek",
+  "author": "Koushik",
   "description": "This extension will help you to create a todo list for your problems.",
   "permissions": [
     "storage",
