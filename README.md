@@ -1,10 +1,8 @@
 # Chrome-Extension-Base-Template
-This is a basic Chrome Extension base template for starting new projects off of initialized with a MIT license.
 
 ## Features
-- ..
-- ..
-- ..
+- You can bookmark coding questions on Algozenith platform.
+- You can also delete if no more needs it.
 
 
 
