@@ -6,11 +6,7 @@ This is a basic Chrome Extension base template for starting new projects off of 
 - ..
 - ..
 
-## Author
-First Last
-- [Author Website]()
-- [Author Github]()
-- [Project Repository]()
+
 
 ## Requirements
 ### Knowledge
@@ -32,10 +28,3 @@ First Last
 6. Navigate to your unzipped project folder and select that and hit OK.
 7. You are now ready to start working on the extension! Just make sure you reload after each change you make to see the changes take place.
 
-### For End Users
-1. ...
-2. ...
-3. ...
-
-## License
-Please refer to LICENSE file.
